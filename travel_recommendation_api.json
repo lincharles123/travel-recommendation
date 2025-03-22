@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "country": "Australia",
+        "timeZone": "Australia/Sydney",
+        "cities": [
+            {
+                "name": "Sydney",
+                "imageUrl": "./images/sydney.jpg",
+                "description": "Sydney, the largest city in Australia, is known for its stunning harbor, iconic landmarks, and beautiful beaches. Visitors can explore the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city offers a vibrant cultural scene, world-class dining, and numerous outdoor activities, making it a popular destination for travelers from around the world."
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "country": "Greece",
+        "timeZone": "Europe/Athens",
+        "cities": [
+            {
+                "name": "Athens",
+                "imageUrl": "./images/athens.jpg",
+                "description": "Athens, Greece’s capital, is a city rich in history, dating back to the 5th century BC. It is considered the cradle of Western civilization and the birthplace of democracy. The city is home to iconic landmarks such as the Acropolis, Parthenon, and the Temple of Olympian Zeus. Visitors can explore ancient ruins, museums, and vibrant neighborhoods, as well as enjoy Greek cuisine and hospitality."
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "country": "China",
+        "timeZone": "Asia/Shanghai",
+        "cities": [
+            {
+                "name": "LuoYang",
+                "imageUrl": "./images/luoyang.jpg",
+                "description": "Luoyang is a city in China’s Henan province, known for its rich history and cultural heritage. It was one of the Four Great Ancient Capitals of China and is home to many ancient sites and relics. Visitors can explore the Longmen Grottoes, White Horse Temple, and the Luoyang Museum, as well as enjoy traditional Chinese cuisine and local festivals."
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "country": "Italy",
+        "timeZone": "Europe/Rome",
+        "cities": [
+            {
+                "name": "Sorrento",
+                "imageUrl": "./images/sorrento.jpg",
+                "description": "Sorrento is a coastal town in southern Italy, known for its stunning views of the Bay of Naples and Mount Vesuvius. It is a popular tourist destination, offering beautiful beaches, historic sites, and delicious Italian cuisine. Visitors can explore the charming old town, visit the nearby Amalfi Coast, and take day trips to Pompeii and Capri."
+            }
+        ]
+    }
+]

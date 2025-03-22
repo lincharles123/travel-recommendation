@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="./travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head> 
+
+<body>
+    <nav class="navbar">
+        <div class="title">
+            <span id="icon">✈️</span>
+            <span>TravelBloom</span>
+        </div>
+
+        <div class="nav-option">
+            <a href="./travel_recommendation.html">Home</a>
+            <a href="./about_page.html">About</a>
+            <a href="./contact_page.html">Contact</a>
+        </div>
+
+        <div id="search-bar" class="hidden">
+            <input type="text" id="search" placeholder="Enter a destination / keyword">
+            <button type="submit" id="search-button">Search</button>
+            <button type="clear" id="clear-button">Clear</button>
+        </div>
+    </nav>
+    
+    <div id="sidebar">
+            <div id="vertical-line"></div>
+            <div id="sidebar-content">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/icons8-twitter.svg" alt="Twitter" class="social-icon">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/icons8-facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/icons8-instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <img src="images/icons8-youtube.svg" alt="YouTube" class="social-icon">
+                </a>
+            </div>
+        </div>
+
+        <section id="About">
+            <div>
+                <h1 class="section-title">ABOUT US</h1>
+            
+                <p class="section-description"><strong>TravelBloom</strong> is a dedicated platform created by travel enthusiasts for travel enthusiasts. Our mission is to inspire and guide travelers to discover the most beautiful and exciting destinations around the world. We provide personalized travel recommendations, detailed guides, and insider tips to help you plan the perfect trip. Whether you're a solo traveler, a couple, or a family, <strong>TravelBloom</strong> is here to make your travel dreams come true. Join our community and start exploring the world with us!</p>
+            </div>
+            
+            <div class="team-container">
+                <h1 class="section-title">Our Team</h1>
+
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="images/cat.jpg" alt="Cat" class="member-image">
+                        <span class="team-name">Mr.Cat</span>
+                        <span class="team-role">Founder & CEO</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/dog.jpg" alt="Dog" class="member-image">
+                        <span class="team-name">Mr.Dog</span>
+                        <span class="team-role">Co-Founder & CTO</span>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/hamster.jpg" alt="Rabbit" class="member-image">
+                        <span class="team-name">Mr.Hamster</span>
+                        <span class="team-role">Head of Marketing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="travel_recommendation.js"></script>
+    </body>
+</html>
